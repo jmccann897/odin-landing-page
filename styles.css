@@ -1,0 +1,138 @@
+
+body {
+    font-family: Roboto;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero.content.left {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 100px;
+    text-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:8px;
+    padding-right: 8px;
+}
+
+.links, .secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.secondary {
+    text-wrap: wrap;
+    max-width: 400px;
+}
+
+.subtext {
+    text-wrap: wrap;
+    max-width: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image {
+    background-color: gray;
+    width: 300px;
+    height: 150px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+button, .actionCall {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteText {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.quoteAuthor {
+    font-weight: 900;
+    color: black;
+    text-align: end;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cardHeader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-placeholder {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.actionCall {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
